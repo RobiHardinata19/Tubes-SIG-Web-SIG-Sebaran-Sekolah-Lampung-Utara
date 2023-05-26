@@ -1,0 +1,691 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style: none !important;
+    transition: all .3s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.margin1 {
+    margin-top: 180px;
+}
+
+.margin2 {
+    margin-top: 100px;
+}
+
+.navbar {
+    /* margin-top: 20px; */
+    z-index: 999;
+    background: rgba(66, 107, 189, 0.801);
+    height: 100px;
+    padding: 0;
+    top: 0;
+}
+
+.navbar .nav-link {
+    font-size: 17px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.navbar-dark .navbar-nav .nav-link.home1 {
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.navbar-dark .navbar-nav .nav-link.struktur1 {
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.navbar-dark .navbar-nav .nav-link.wilayah1 {
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.171);
+    color: #FFFFFF;
+    transition: .4s;
+}
+
+/* Navbar End */
+
+.navbar .menu a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+
+.desaway {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.kabupaten {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/*  Navbar end */
+
+/* home start */
+#home {
+    background-image: url(../images/home.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.teks-home {
+    padding-top: 230px;
+}
+
+.heading-home {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.subheading-home {
+    margin-top: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.arrow {
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.arrow a {
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+.arrow a:hover {
+    color: #426BBD;
+    transition: .5s;
+}
+
+/* home end */
+
+/* latar start */
+.heading {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: justify;
+    color: #000000;
+}
+
+.teks-latar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    text-align: justify;
+    color: #000000;
+}
+
+/* latar end */
+
+/* tentang start*/
+#tentang {
+    background-color: #426BBD;
+}
+
+.wrap-tentang {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    padding: 45px;
+    transition: .6s;
+}
+
+.card:hover {
+    background-color: rgb(180, 180, 180);
+    transition: .6s;
+}
+
+.img-card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.teks-card {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+/* tentang end */
+
+/* peta start*/
+#admin {
+    margin-bottom: 100px;
+}
+
+.teks-admin {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    color: #000000;
+}
+
+.btn-peta a {
+    background-color: #426BBD;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: justify;
+    color: #FFFFFF;
+    transition: .6s;
+}
+
+.btn-home a:hover {
+    background-color: #20448b;
+    transition: .6s;
+}
+
+.btn-home a {
+    background-color: #426BBD;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: justify;
+    color: #FFFFFF;
+    transition: .6s;
+}
+
+.btn-peta a:hover {
+    background-color: #20448b;
+    transition: .6s;
+}
+
+/* peta end */
+
+/* footer start*/
+#footer {
+    background-color: #426BBD;
+}
+
+#footer .foto {
+    padding-top: 60px;
+    /* background-color: #FFB72B; */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sosmed {
+    /* margin-top: 60px; */
+    padding-bottom: 60px;
+    /* background-color: #DE5658; */
+    text-align: center;
+    line-height: 30px;
+}
+
+.sosmed h4 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.sosmed a {
+    text-decoration: none;
+}
+
+.sosmed a {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+/* END FOOTER */
+/* footer end */
+
+/* map start */
+.wrap-map {
+    height: 100vh;
+}
+
+/* map end */
+
+
+/* HALAMAN SGDS */
+.wrap-banner1 {
+    padding: 0;
+    margin-top: 200px;
+    height: 430px;
+    background-color: red;
+    border-radius: 20px;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.wrap-banner2 {
+    padding: 0;
+    margin-top: 200px;
+    height: 430px;
+    background-color: red;
+    border-radius: 20px;
+    background-image: url(../images/banner-data.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.wrap-banner3 {
+    padding: 0;
+    margin-top: 200px;
+    height: 430px;
+    background-color: red;
+    border-radius: 20px;
+    background-image: url(../images/banner-peta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.heading-banner {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.subheading-banner {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.bold-text {
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+/* HALAMAN SGDS */
+
+/* tabeldata */
+.heading-tabel {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.header-tabel {
+    background: rgb(66, 107, 189);
+    color: white;
+}
+
+.dropdown .btn {
+    background-color: #426BBD;
+}
+
+.form-data {
+    width: 300px;
+}
+
+.btn-cari {
+    background-color: #FF9E49;
+}
+
+.btn-cari:hover {
+    color: #FFFFFF;
+}
+
+/* tabeldata */
+
+/* LOGIN START*/
+.img-login {
+    min-height: 100vh;
+    background-image: url(../images/login-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-login {
+    background-color: #426BBD;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wrap-login {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.heading-login {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.heading-form {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.form-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.form-control {
+    padding: 15px;
+    background: rgba(44, 53, 70, 0.06);
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #F9B054;
+}
+
+.form-control::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.29);
+}
+
+.input-login .btn {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    background: #F9B054;
+    color: #000000;
+    border: none;
+}
+
+.input-login .btn:hover {
+    transition: .5;
+    background: #da9849;
+}
+
+/* LOGIN END */
+
+/* TABEL DATA SEKOLAH */
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content h2 {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 30px;
+    border-bottom: 1px solid #ebebeb;
+    color: #181818;
+    text-align: center;
+}
+
+.read .create-contact {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #38b673;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+.read .create-contact:hover {
+    background-color: #32a367;
+}
+
+.read .pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read .pagination a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #a5a7a9;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    margin: 15px 0 15px 5px;
+}
+
+.read .pagination a:hover {
+    background-color: #999b9d;
+}
+
+.read table {
+    width: 100%;
+    padding-top: 30px;
+    border-collapse: collapse;
+    
+}
+
+.read table thead {
+    background-color: #426BBD;
+    border-bottom: 1px solid #d3dae0;
+    color: #FFFFFF;
+}
+
+.read table thead td {
+    padding: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.read table tbody tr {
+    border-bottom: 1px solid #d3dae0;
+}
+
+.read table tbody tr:nth-child(even) {
+    background-color: #fbfcfc;
+}
+
+.read table tbody tr:hover {
+    background-color: #376ab7;
+}
+
+.read table tbody tr:hover td {
+    color: #FFFFFF;
+}
+
+.read table tbody tr:hover td:nth-child(1) {
+    color: #FFFFFF;
+}
+
+.read table tbody tr td {
+    padding: 10px;
+}
+
+.read table tbody tr td:nth-child(1) {
+    color: #a5a7a9;
+}
+
+.read table tbody tr td.actions {
+    padding: 8px;
+    text-align: right;
+}
+
+.read table tbody tr td.actions .edit,
+.read table tbody tr td.actions .trash {
+    display: inline-flex;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 12px;
+}
+
+.read table tbody tr td.actions .trash {
+    background-color: #b73737;
+}
+
+.read table tbody tr td.actions .trash:hover {
+    background-color: #a33131;
+}
+
+.read table tbody tr td.actions .edit {
+    background-color: #37afb7;
+}
+
+.read table tbody tr td.actions .edit:hover {
+    background-color: #319ca3;
+}
+
+.update form {
+    padding: 15px 0;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.update form label {
+    display: inline-flex;
+    width: 400px;
+    padding: 10px 0;
+    margin-right: 25px;
+}
+
+.update form input {
+    padding: 10px;
+    width: 400px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+
+.update form input[type="submit"] {
+    display: block;
+    background-color: #38b673;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.update form input[type="submit"]:hover {
+    background-color: #32a367;
+}
+
+.delete .yesno {
+    display: flex;
+}
+
+.delete .yesno a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #38b673;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    margin: 15px 10px 15px 0;
+}
+
+.delete .yesno a:hover {
+    background-color: #32a367;
+}
+
+/* TABEL DATA SEKOLAH END */
